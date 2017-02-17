@@ -1,0 +1,7 @@
+<div class="container-form-contact">
+    <input type="text" placeholder="Titel" data-bind="textinput:title, css:titleValid"/><br>
+    <textarea type="text" placeholder="Text" data-bind="textinput:text, css:textValid"></textarea><br>
+    <input type="email" placeholder="E-Mail (optional)" data-bind="textinput:email"/><br>
+
+    <button data-bind="click:sendForm, visible:formValid">Please click me</button>
+</div>
